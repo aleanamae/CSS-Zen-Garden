@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Press+Start+2P&family=Source+Sans+Pro&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+  color: #2D2D2D;
+}
+
+h1 {
+  font-family: "Odibee Sans", "Source Sans Pro", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12pt;
+  color: #AB1DA4;
+  padding-top: 2.7em;
+  margin-right: 4.6em;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+h2 {
+  font-family: "Odibee Sans", "Source Sans Pro", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 32pt;
+  color: black;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24pt;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #db7202;
+  font-style: italic;
+}
+a:visited {
+  color: #a95801;
+}
+
+p {
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+.page-wrapper {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .page-wrapper {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+header[role=banner] {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("/assets/l-40.svg"), url("/assets/reverse-l-40.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 180px 120px, 120px 180px;
+  height: 14rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.summary {
+  margin-top: -60px;
+  margin-right: 130px;
+  margin-left: 1rem;
+}
+.summary p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.preamble {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  padding-top: 1em;
+  padding-left: 140px;
+  margin-top: 1em;
+  background-image: url("/assets/t.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 120px 180px;
+}
+.preamble h3 {
+  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
+  font-size: 16pt;
+  color: #00ACE5;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.explanation {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.explanation h3 {
+  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
+  font-size: 16pt;
+  color: #48C233;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.participation {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: black;
+  padding-top: 1em;
+}
+.participation h3 {
+  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
+  font-size: 16pt;
+  color: #FD8C13;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.participation p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+  color: white;
+}
+
+.benefits {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: black;
+  padding-top: 1em;
+}
+.benefits h3 {
+  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
+  font-size: 16pt;
+  color: #FFCC22;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.benefits p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+  color: white;
+}
+
+.requirements {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1em;
+}
+.requirements h3 {
+  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
+  font-size: 16pt;
+  color: #15295B;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
