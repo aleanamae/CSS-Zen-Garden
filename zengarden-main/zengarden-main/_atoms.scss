@@ -66,3 +66,55 @@ p {
 }
 
 //Sidebar Atoms
+aside.sidebar {
+  //Headings
+  h3 {
+    @include font-source($fontsize-sidebarheading, black);
+    text-align: center;
+    &::after {
+      content: " ";
+      display: block;
+      width: 80%;
+      margin: auto;
+      border-bottom: 2px solid black;
+    }
+  }
+  //Archives Authors
+  .design-selection {
+    text-transform: none;
+    font-style: italic;
+  }
+  //Archives Nav and Titles
+  .design-name, .next, .viewall {
+    @include font-source($fontsize-sidebarsubheading-allcaps, $all-caps: true);
+    font-style: normal;
+  }
+  .design-name::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .select {
+    font-style: normal;
+  }
+  //General Sidebar Body Text
+  text-align: center;
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 20px;
+    }
+  }
+  //Links
+  a {
+    color: $darkblue;
+    &:visited {
+      color: $purple;
+    }
+    &:hover {
+      color: $lightblue;
+    }
+    &:active {
+      color: $green;
+    }
+  }
+}

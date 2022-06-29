@@ -72,116 +72,56 @@ p {
   }
 }
 
-header[role=banner] {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url("/assets/l-40.svg"), url("/assets/reverse-l-40.svg");
-  background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 180px 120px, 120px 180px;
-  height: 14rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+aside.sidebar {
+  text-align: center;
 }
-
-.summary {
-  margin-top: -60px;
-  margin-right: 130px;
-  margin-left: 1rem;
-}
-.summary p {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.preamble {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: 1rem;
-  padding-top: 1em;
-  padding-left: 140px;
-  margin-top: 1em;
-  background-image: url("/assets/t.svg");
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 120px 180px;
-}
-.preamble h3 {
-  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
-  font-size: 16pt;
-  color: #00ACE5;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-.explanation {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-.explanation h3 {
-  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
-  font-size: 16pt;
-  color: #48C233;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-.participation {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: black;
-  padding-top: 1em;
-}
-.participation h3 {
-  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
-  font-size: 16pt;
-  color: #FD8C13;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-.participation p {
+aside.sidebar h3 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 12pt;
-  color: white;
+  font-size: 24pt;
+  color: black;
+  text-align: center;
 }
-
-.benefits {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: black;
-  padding-top: 1em;
+aside.sidebar h3::after {
+  content: " ";
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-bottom: 2px solid black;
 }
-.benefits h3 {
-  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
-  font-size: 16pt;
-  color: #FFCC22;
-  margin-top: 0;
-  margin-bottom: 1em;
+aside.sidebar .design-selection {
+  text-transform: none;
+  font-style: italic;
 }
-.benefits p {
+aside.sidebar .design-name, aside.sidebar .next, aside.sidebar .viewall {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 12pt;
-  color: white;
+  font-size: 15pt;
+  text-transform: uppercase;
+  font-style: normal;
 }
-
-.requirements {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1em;
+aside.sidebar .design-name::after {
+  content: "\a";
+  white-space: pre;
 }
-.requirements h3 {
-  font-family: "Press Start 2P", Arial, Verdana, sans-serif;
-  font-size: 16pt;
+aside.sidebar .select {
+  font-style: normal;
+}
+aside.sidebar ul {
+  list-style: none;
+}
+aside.sidebar ul li {
+  margin-bottom: 20px;
+}
+aside.sidebar a {
   color: #15295B;
-  margin-top: 0;
-  margin-bottom: 1em;
 }
-
-* {
-  box-sizing: border-box;
+aside.sidebar a:visited {
+  color: #AB1DA4;
+}
+aside.sidebar a:hover {
+  color: #00ACE5;
+}
+aside.sidebar a:active {
+  color: #48C233;
 }
 
 /*# sourceMappingURL=style.css.map */
